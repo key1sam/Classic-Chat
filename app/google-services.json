@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "662483633853",
+    "firebase_url": "https://classic-chat-3b3c6-default-rtdb.firebaseio.com",
+    "project_id": "classic-chat-3b3c6",
+    "storage_bucket": "classic-chat-3b3c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662483633853:android:d2c01718fa72f38ab359d4",
+        "android_client_info": {
+          "package_name": "com.example.classicchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662483633853-2gd5o08pecttmir9tbnfvku6md2b4ooo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq8s64eN9h0c5bXawMxgG66Sm5AtoICu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662483633853-2gd5o08pecttmir9tbnfvku6md2b4ooo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

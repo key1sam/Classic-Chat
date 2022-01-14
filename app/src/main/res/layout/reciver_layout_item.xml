@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/create_account"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" /> <!-- https://github.com/hdodenhof/CircleImageView -->
+
+    <TextView
+        android:id="@+id/txtMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="7dp"
+        android:layout_toRightOf="@id/profile_image"
+        android:background="@drawable/reciver_shape"
+        android:padding="8dp"
+        android:text="Classic Chat"
+        android:textColor="@color/white"
+        android:textStyle="bold"></TextView>
+</RelativeLayout>
